@@ -9,7 +9,5 @@ import org.springframework.boot.context.properties.ConstructorBinding;
 @Data
 public class CartServiceIntegrationProperties {
     private String url;
-    private Integer connectTimeout;
-    private Integer readTimeout;
-    private Integer writeTimeout;
+    private TimeoutIntegrationProperties timeoutIntegrationProperties;
 }
